@@ -144,8 +144,7 @@ Harsh Kumar
 
 GitHub: https://github.com/harshkumar6969
 
-LinkedIn: Add your LinkedIn profile here.
-
+LinkedIn: https://www.linkedin.com/in/harsh-kumar-b523bb351
 ---
 
 ⭐ Support
