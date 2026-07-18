@@ -1,153 +1,249 @@
-🏠  ReadyNest Form Builder 
+# 📋 ReadyNest Form Builder
 
-A modern and responsive Form Builder application that allows users to create, customize, and manage forms with an intuitive drag-and-drop interface. Built with modern web technologies, ReadyNest simplifies form creation for surveys, registrations, feedback, and data collection.
-
----
-
-🚀 Features
-
-- ✨ Create custom forms easily
-- 🖱️ Drag-and-drop form builder
-- 📝 Multiple input field types
-  - Text
-  - Email
-  - Number
-  - Password
-  - Textarea
-  - Dropdown
-  - Radio Buttons
-  - Checkboxes
-  - Date Picker
-- 📱 Fully Responsive UI
-- 🎨 Clean and Modern Design
-- ⚡ Fast Performance
-- 🔒 Form Validation
-- 💾 Save and Manage Forms
-- 📊 Easy Form Preview
-- 🌙 User-Friendly Interface
+A modern full-stack web application that allows users to create, customize, publish, and manage dynamic forms with ease. The platform enables secure form creation, real-time response collection, and analytics through an intuitive dashboard.
 
 ---
 
-🛠️ Tech Stack
+## 🚀 Project Overview
 
-Frontend
+**ReadyNest Form Builder** is a dynamic form management platform built as part of the **ReadyNest Full Stack Development Internship - Week 1 Task**.
 
-- React.js
+The application provides an easy way to create customizable forms with multiple field types, share them using unique links, collect responses, and analyze submissions from a centralized dashboard.
+
+---
+
+## ✨ Features
+
+### 🔐 User Authentication
+- Secure Sign Up & Login
+- JWT Authentication
+- Protected Dashboard
+
+### 📝 Dynamic Form Builder
+- Create unlimited forms
+- Edit existing forms
+- Delete forms
+- Publish forms
+
+### 📌 Multiple Field Types
+- Text Input
+- Email
+- Number
+- Dropdown
+- Checkbox
+- Radio Button
+- Date Picker
+- Text Area
+
+### 🔗 Form Sharing
+- Generate unique shareable links
+- Public form access
+- Easy response collection
+
+### 📊 Response Dashboard
+- View submitted responses
+- Search and filter responses
+- Manage submissions
+
+### 📈 Analytics
+- Total Form Views
+- Submission Count
+- Response Statistics
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- Next.js
+- React
 - TypeScript
 - Tailwind CSS
-- Vite
-- ShadCN UI
+- Shadcn UI
 
-Backend
-
+## Backend
 - Node.js
 - Express.js
+- REST API
 
-Database
+## Database
+- MongoDB
 
-- PostgreSQL
+## Authentication
+- JWT (JSON Web Token)
 
-ORM
-
-- Drizzle ORM
+## Additional Tools
+- Cloudinary
+- Zod Validation
 
 ---
 
-📂 Project Structure
+# 📂 Folder Structure
 
+```
 ReadyNest-Form-Builder/
-│── client/
-│── server/
-│── shared/
-│── public/
-│── package.json
-│── tsconfig.json
-│── vite.config.ts
-│── README.md
+│
+├── client/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── styles/
+│   └── utils/
+│
+├── server/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   └── services/
+│
+├── public/
+├── package.json
+├── .env.example
+└── README.md
+```
 
 ---
 
-⚙️ Installation
+# ⚙️ Installation
 
-Clone the repository:
+## Clone the Repository
 
-git clone https://github.com/harshkumar6969/ReadyNest-Form-Builder.git
+```bash
+git clone https://github.com/yourusername/ReadyNest-Form-Builder.git
+```
 
-Move into the project folder:
+## Navigate to Project Folder
 
+```bash
 cd ReadyNest-Form-Builder
+```
 
-Install dependencies:
+## Install Dependencies
 
+```bash
 npm install
+```
+
+## Configure Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
+PORT=5000
+
+MONGODB_URI=your_mongodb_connection_string
+
+JWT_SECRET=your_secret_key
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+
+CLOUDINARY_API_KEY=your_api_key
+
+CLOUDINARY_API_SECRET=your_api_secret
+```
 
 ---
 
-▶️ Run the Project
+## Run the Application
 
-Start the development server:
-
+```bash
 npm run dev
+```
 
-The application will be available at:
+The application will start on:
 
-http://localhost:5173
-
+```
+http://localhost:3000
+```
 
 ---
 
-🎯 Future Improvements
+# 📸 Screenshots
 
-- User Authentication
-- Form Analytics
+- Home Page
+- Form Builder
+- Dashboard
+- Responses Page
+- Analytics
+
+---
+
+# 🎯 Future Enhancements
+
+- Drag & Drop Form Builder
+- QR Code Sharing
+- Export Responses (CSV / Excel)
 - Email Notifications
-- File Upload Support
-- AI Form Suggestions
-- Form Templates
-- Export to PDF
-- Response Dashboard
-- Dark Mode
-- Team Collaboration
+- Custom Themes
+- Real-Time Updates
+- Payment Form Integration
+- Advanced Analytics
 
 ---
 
-🤝 Contributing
+# 📖 Usage
+
+1. Register or Login.
+2. Create a new form.
+3. Add custom fields.
+4. Publish the form.
+5. Share the generated link.
+6. Collect responses.
+7. View analytics and manage submissions.
+
+---
+
+# 🤝 Contributing
 
 Contributions are welcome!
 
 1. Fork the repository
-2. Create a feature branch
+2. Create your feature branch
 
+```bash
 git checkout -b feature-name
+```
 
 3. Commit your changes
 
+```bash
 git commit -m "Add new feature"
+```
 
-4. Push to your branch
+4. Push to GitHub
 
+```bash
 git push origin feature-name
+```
 
 5. Open a Pull Request
 
 ---
 
-📄 License
+# 👨‍💻 Author
 
-This project is developed for educational purposes as part of the ReadyNest Full Stack Program
+**Harsh Kumar Singh**
+
+B.Tech Computer Science Engineering
 
 ---
 
-👨‍💻 Author
+# 🙏 Acknowledgements
 
-Harsh Kumar
+This project was developed as part of the **ReadyNest Full Stack Development Internship (Week 1 Task)**.
 
-GitHub: https://github.com/harshkumar6969
+Special thanks to **ReadyNest** for providing an opportunity to build a real-world full-stack application and enhance practical development skills.
 
-LinkedIn: https://www.linkedin.com/in/harsh-kumar-b523bb351
 ---
 
+# ⭐ Support
 
-⭐ Support
+If you like this project, consider giving it a ⭐ on GitHub.
 
-If you found this project helpful, please consider giving it a ⭐ Star on GitHub. It motivates me to build more useful open-source projects.
+---
+
+## 📄 License
+
+This project is intended for educational and internship purposes.
