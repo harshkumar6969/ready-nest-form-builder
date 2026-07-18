@@ -160,16 +160,6 @@ http://localhost:3000
 
 ---
 
-# 📸 Screenshots
-
-- Home Page
-- Form Builder
-- Dashboard
-- Responses Page
-- Analytics
-
----
-
 # 🎯 Future Enhancements
 
 - Drag & Drop Form Builder
